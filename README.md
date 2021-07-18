@@ -40,7 +40,7 @@ The number of pairs after each stage of testing is
 # Analysis
 The first point to notice from the test case is that the program does seem to work. It is able to shrink 435 possible pairs to test into 20 successful pairs after the adf test. And visually using the graphs of the spreads it does seem as if the spreads are mean-reverting which is necessary for pair trading.
 
-However it should be noted that testing for anti-persistent behaviour using the Hurst Exponent didn't have any affect on the total pairs to be tested in step 3. Implying that further testing is necessary to see whether Hurst is useful here or implicitly implied by the results of step 1 and 2.
+However it should be noted that testing for anti-persistent behaviour using the Hurst Exponent didn't have any affect on the total pairs to be tested in step 3. Implying that further testing is necessary to see whether Hurst is useful here or weakly implied by the results of step 1 and 2.
 
 # Future Updates/Improvements 
 - Testing for the necessity of the Hurst Exponent
